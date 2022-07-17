@@ -1,0 +1,31 @@
+.container {
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.bike-image {
+  position: relative;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  display: flex;
+}
+
+.detail:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.detail-name {
+  flex: 0 1 40%;
+}
+
+.detail-value {
+  margin-left: 1rem;
+}
